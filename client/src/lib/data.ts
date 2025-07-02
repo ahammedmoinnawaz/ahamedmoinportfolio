@@ -11,22 +11,30 @@ export const personalInfo = {
 };
 
 export const skills = {
+  coreSkills: [
+    { name: "SQL", level: 85, icon: "🗄️" },
+    { name: "Python", level: 78, icon: "🐍" },
+    { name: "Excel Advanced", level: 92, icon: "📊" },
+    { name: "Microsoft Power BI", level: 95, icon: "📈" },
+    { name: "Tableau", level: 82, icon: "📋" }
+  ],
   dataAnalysis: [
-    { name: "Power BI", level: 92 },
-    { name: "Excel Advanced", level: 88 },
-    { name: "SQL Basics", level: 72 }
+    { name: "Data Cleaning", level: 90 },
+    { name: "Statistical Analysis", level: 85 },
+    { name: "Business Intelligence", level: 88 },
+    { name: "KPI Development", level: 87 }
   ],
   visualization: [
-    { name: "Dashboards", level: 90 },
-    { name: "KPI Metrics", level: 86 },
-    { name: "Charts & Graphs", level: 89 }
+    { name: "Dashboard Design", level: 93 },
+    { name: "Interactive Reports", level: 89 },
+    { name: "Data Storytelling", level: 86 },
+    { name: "Chart Optimization", level: 91 }
   ],
   tools: [
-    { name: "DAX & Power Query", level: 84 },
-    { name: "Data Cleaning", level: 87 },
-    { name: "Google Sheets", level: 82 },
-    { name: "Canva Design", level: 78 },
-    { name: "GitHub", level: 75 }
+    { name: "DAX & Power Query", level: 88 },
+    { name: "Google Sheets", level: 85 },
+    { name: "GitHub", level: 75 },
+    { name: "Canva Design", level: 78 }
   ]
 };
 

@@ -16,6 +16,26 @@ export default function SkillsSection() {
           </p>
         </div>
 
+        {/* Core Skills Section */}
+        <div className="mb-12">
+          <h3 className="text-2xl font-semibold text-gray-900 mb-8 text-center">Core Technical Skills</h3>
+          <div className="grid grid-cols-1 md:grid-cols-5 gap-6">
+            {skills.coreSkills.map((skill, index) => (
+              <div key={skill.name} className="bg-white rounded-xl shadow-lg p-6 text-center hover:shadow-xl transition-all duration-300 hover:scale-105">
+                <div className="text-4xl mb-3">{skill.icon}</div>
+                <h4 className="font-semibold text-gray-900 mb-2">{skill.name}</h4>
+                <div className="w-full bg-gray-200 rounded-full h-3 mb-2">
+                  <div 
+                    className="bg-blue-primary h-3 rounded-full transition-all duration-1000 ease-out" 
+                    style={{ width: `${skill.level}%` }}
+                  ></div>
+                </div>
+                <span className="text-sm text-gray-600">{skill.level}%</span>
+              </div>
+            ))}
+          </div>
+        </div>
+
         {/* Skills Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
           {/* Data Analysis Tools */}

@@ -116,9 +116,27 @@ This is a modern full-stack web application built as a data analyst portfolio fo
 - **Database Migrations**: Drizzle manages schema evolution
 - **Environment Variables**: DATABASE_URL required for production
 
+## Recent Changes
+
+### July 02, 2025 - Enhanced Portfolio Features
+- ✅ Added core technical skills section with SQL, Python, Excel, Microsoft Power BI, and Tableau
+- ✅ Replaced Chart.js with custom React components to resolve registration issues
+- ✅ Fixed chart visualizations with animated skill bars and proficiency displays
+- ✅ Enhanced hero section with email contact functionality
+- ✅ Updated personal information and metrics to reflect realistic values
+- ✅ Created portfolio configuration system for easy future editing
+- ✅ Added comprehensive editing guide (PORTFOLIO_EDITING_GUIDE.md)
+- ✅ Improved navigation and ensured education section visibility
+
+### Editing System
+- **Main Content File**: `client/src/lib/data.ts` - Contains all portfolio content
+- **Configuration File**: `client/src/config/portfolio-config.ts` - Future-ready centralized config
+- **Editing Guide**: `PORTFOLIO_EDITING_GUIDE.md` - Non-technical guide for updates
+- **Key Editable Elements**: Skills, experience, projects, education, contact info, metrics
+
 ## Changelog
 
-- July 02, 2025. Initial setup
+- July 02, 2025. Initial setup and core feature implementation
 
 ## User Preferences
 
